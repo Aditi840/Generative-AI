@@ -8,7 +8,7 @@ This project leverages LangChain, Pinecone, and Hugging Face models to load, pro
 
 Ensure you have the necessary dependencies installed:
 
-*/pip install --upgrade langchain openai unstructured sentence-transformers pinecone-client transformers langchain-community*/
+*\pip install --upgrade langchain openai unstructured sentence-transformers pinecone-client transformers langchain-community*\
 pip install detectron2@git+https://github.com/facebookresearch/detectron2.git@v0.6#egg=detectron2
 apt-get install poppler-utils
 from langchain.document_loaders import DirectoryLoader
